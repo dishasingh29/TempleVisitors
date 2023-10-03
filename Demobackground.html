@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Project</title>
+    <link rel = "stylesheet" type = "text/css" href = "Cssfile2/bgDemo.css"/>
+    <script src="https://kit.fontawesome.com/59e207b61b.js" crossorigin="anonymous"></script>
+    <script type="Text/JavaScript" src="JSFile/bgDemo.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="C:\Users\Disha\HTML\BackgroundDemo\Images1\Video.mp4" type="video/mp4">
+          </video>
+
+        <nav>
+            <img src="C:\Users\Disha\HTML\BackgroundDemo\Images1\devalaiya6.png" alt="Logo" class="Logo">
+            <ul>
+                
+                
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+                
+                <li class="dropdown2" onclick="signin()"><a href="#">Sign In</a>
+                    <ul class="sign_in" id="showbox" >
+                        <div class="form_box">
+                            <h1> Sign In </h1>
+                            <form>
+                                <div class="input-group">
+                                    <div class="input-field">
+                                        <i class="fa-solid fa-user" style="color: #f0c466;"></i>
+                                        <input type="text" placeholder="User_id" id="inputs">
+                                    </div>
+
+                                    <div class="input-field">
+                                        <i class="fa-solid fa-unlock" style="color: #f0c466;"></i>
+                                        <input type="password" placeholder="Password" id="inputs">
+                                    </div>
+                                    <button class="btn">Sign In</button>
+                                </div>
+                            </form>
+                        </div>
+                    </ul>
+                </li>
+            
+                <li class="dropdown2" onclick="signup()"><a href="#">Sign Up</a>
+                    <ul class="sign_up" id="showbox2" >
+                        <div class="form_box">
+                            <h1> Sign Up</h1>
+                            <form>
+                                <div class="input-group">
+                                    <div class="input-field">
+                                        <i class="fa-solid fa-user" style="color: #f0c466;"></i>
+                                        <input type="text" placeholder="Full Name" id="inputs">
+                                    </div>
+
+                                    <div class="input-field">
+                                        <i class="fa-solid fa-phone" style="color: #f0c466;"></i>
+                                        <input type="text" placeholder="Mobile Number" id="inputs">
+                                    </div>
+
+                                    <div class="input-field">
+                                        <i class="fa-solid fa-envelope" style="color: #f0c466;"></i>
+                                        <input type="email" placeholder="Email as User-id" id="inputs">
+                                    </div>
+
+                                    <div class="input-field">
+                                        <i class="fa-solid fa-lock" style="color: #f0c466;"></i>
+                                        <input type="password" placeholder="Password" id="inputs">
+                                    </div>
+                                    <button class="btn">Register</button>
+                                </div>
+                            </form>
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown1"><a href="#"> Temples</a>
+                    <ul class="states">
+                        <li><a href="#">Andhra Pradesh</a></li>
+                        <li><a href="#">Arunachal Pradesh</a></li>
+                        <li><a href="#">Assam</a></li>
+                        <li><a href="#">Bihar</a></li>
+                        <li><a href="#">Chhattisgarh</a></li>
+                        <li><a href="#">Goa</a></li>
+                        <li><a href="#">Gujarat</a></li>
+                        <li><a href="#">Haryana</a></li>
+                        <li><a href="#">Himachal Pradesh</a></li>
+                        <li><a href="#">Jharkhand</a></li>
+                        <li><a href="#">Karnataka</a></li>
+                        <li><a href="#">Kerala</a></li>
+                        <li><a href="#">Madhya Pradesh</a></li>
+                        <li><a href="#">Maharashtra</a></li>
+                        <li><a href="#">Manipur</a></li>
+                        <li><a href="#">Meghalaya</a></li>
+                        <li><a href="#">Mizoram</a></li>
+                        <li><a href="#">Nagaland</a></li>
+                        <li><a href="#">Odisha</a></li>
+                        <li><a href="#">Punjab</a></li>
+                        <li><a href="#">Rajasthan</a></li>
+                        <li><a href="#">Sikkim</a></li>
+                        <li><a href="#">Tamil Nadu</a></li>
+                        <li><a href="#">Telangana</a></li>
+                        <li><a href="#">Tripura</a></li>
+                        <li><a href="#">Uttar Pradesh</a></li>
+                        <li><a href="#">Uttarakhand</a></li>
+                        <li><a href="#"  style="border-bottom: none">West Bengal</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <section class="content">
+            <p class="TextBig">TEMPLES</p>
+            <p class="TextSmall">Of India</p>
+            <input type="text" name="search" placeholder="Puja names, Temple names,etc.." id="search">
+            <button class="btn">Search</button>
+            <div class="God-Images">
+                <img src="Images1\Shiva.jpg" alt="Image Not Found">
+                <img src="Images1\Krishna.jpg" alt="Image Not Found">
+                <img src="Images1\Vishnu.jpg" alt="Image Not Found">
+            </div>
+        </section> 
+
+        <section>
+            <div class="slidebar">
+                <i class="fa-solid fa-bars fa-sm"></i>
+            </div>
+        
+        </section>
+        
+        
+        
+    </div>
+</body>
+</html>
